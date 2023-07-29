@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+header {
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+header h1{
+  text-align: center;
+}
+
+section input,button {
+  padding: 7px;
+  font-size: 18px;
+  border-radius: 3px;
+  border: 1px solid #9e9e9e;
+  
+}
+
+section button {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+section .entrada{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+section .tarefas{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+section ul{
+  padding: 10px;
+}
+
+section ul li{
+  margin-bottom: 7px;
+}
+
+.tarefaConcluida{
+  text-decoration: line-through
+}
